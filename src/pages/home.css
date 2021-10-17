@@ -1,0 +1,62 @@
+.home {
+  margin-top: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.styles-table {
+  padding: 10px;
+  width: 700px;
+}
+
+.styles-table thead {
+  padding: 10px;
+}
+.styles-table thead tr {
+  background-color: crimson;
+  color: white;
+}
+
+.styles-table tbody tr {
+  font-size: 20px;
+}
+.styles-table tbody tr:nth-of-type(odd) {
+  background-color: rgb(250, 179, 194);
+  margin-top: 20px;
+}
+.styles-table tbody tr,
+.styles-table tbody td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.styles-table tbody tr:nth-of-type(odd) {
+  background-color: rgb(250, 179, 194);
+  margin-top: 20px;
+}
+
+.styles-table tbody tr td {
+}
+.btn {
+  background-color: orange;
+  width: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.btn-edit {
+  background-color: brown;
+}
+
+.btn-del {
+  background-color: chocolate;
+}
+
+.btn-view {
+  background-color: rgb(100, 211, 100);
+}

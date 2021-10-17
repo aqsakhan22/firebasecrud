@@ -1,0 +1,6 @@
+npm i --save react-router-dom firebase react-toastify
+https://www.npmjs.com/package/react-toastify
+https://www.npmjs.com/package/firebase
+https://www.npmjs.com/package/firebase/v/8.0.1
+
+https://firebase.google.com/docs/web/modular-upgrade

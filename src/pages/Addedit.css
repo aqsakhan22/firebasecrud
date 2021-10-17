@@ -1,0 +1,39 @@
+.updateform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.updateform form {
+  background-color: brown;
+  color: white;
+  width: 300px;
+  height: 400px;
+}
+
+form .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+form .item label {
+  font-size: 20px;
+}
+form input {
+  margin-top: 10px;
+  min-height: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+.btnsave {
+  background-color: rgb(100, 211, 100);
+}
+.btnupdate {
+  background-color: rgb(219, 109, 30);
+  color: white;
+  padding: 10px;
+  border: none;
+}

@@ -1,0 +1,40 @@
+.header {
+  background-color: crimson;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+a {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+/* a:hover {
+  color: crimson;
+  background-color: lightgray;
+} */
+
+.active {
+  background-color: white;
+  color: crimson;
+}
+/* 
+@media screen and (max-width: 500px) {
+  .header a {
+    padding: 5px;
+    margin-right: 5px;
+    flex-direction: column;
+  }
+} */
